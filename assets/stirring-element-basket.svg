@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 920" width="820" height="920" role="img" aria-label="USP Apparatus 1 basket stirring element dimensions">
+  <rect width="820" height="920" fill="#ffffff"/>
+  <defs>
+    <marker id="arrowB" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,1.5 L8,5 L0,8.5 Z" fill="#111"/>
+    </marker>
+    <pattern id="mesh" width="8" height="8" patternUnits="userSpaceOnUse">
+      <path d="M0,0 L8,8 M8,0 L0,8" stroke="#333" stroke-width="1"/>
+    </pattern>
+    <style>
+      .line { stroke:#111; stroke-width:2.4; fill:none; stroke-linecap:round; stroke-linejoin:round; }
+      .thin { stroke:#111; stroke-width:1.6; fill:none; }
+      .dim { stroke:#111; stroke-width:1.5; fill:none; marker-start:url(#arrowB); marker-end:url(#arrowB); }
+      .cl { stroke:#444; stroke-width:1.2; fill:none; stroke-dasharray:10 5 3 5; }
+      .label { font-family: Arial, Helvetica, sans-serif; font-size:20px; fill:#111; font-weight:700; }
+      .label-sm { font-family: Arial, Helvetica, sans-serif; font-size:16px; fill:#111; font-weight:700; }
+      .note { font-family: Arial, Helvetica, sans-serif; font-size:15px; fill:#222; font-weight:600; }
+      .fill { fill:#f4f4f4; stroke:#111; stroke-width:2.4; }
+    </style>
+  </defs>
+  <line class="cl" x1="360" y1="40" x2="360" y2="620"/>
+  <text class="label" x="370" y="58">CL</text>
+  <rect class="fill" x="348" y="50" width="24" height="250"/>
+  <path class="thin" d="M340,160 Q360,152 380,160 Q360,168 340,160" fill="#fff"/>
+  <line class="dim" x1="348" y1="110" x2="372" y2="110"/>
+  <text class="label" x="390" y="100">6.3 to 6.5</text>
+  <text class="label" x="390" y="122">or 9.4 to 10.1 mm</text>
+  <rect class="fill" x="300" y="300" width="120" height="28"/>
+  <path class="line" d="M310,300 L310,288 L350,288 L350,300"/>
+  <path class="line" d="M410,300 L410,288 L370,288 L370,300"/>
+  <path class="line" d="M312,328 L300,340"/>
+  <path class="line" d="M408,328 L420,340"/>
+  <circle class="line" cx="360" cy="314" r="4" fill="#111"/>
+  <circle class="line" cx="330" cy="290" r="5" fill="#fff"/>
+  <line class="thin" x1="250" y1="270" x2="325" y2="288"/>
+  <text class="label" x="120" y="255">Vent hole</text>
+  <text class="label" x="100" y="278">2.0 ± 0.5 mm dia.</text>
+  <text class="label" x="450" y="310">Retention spring</text>
+  <text class="label-sm" x="450" y="332">3 tangs on 120° centers</text>
+  <line class="dim" x1="440" y1="300" x2="440" y2="328"/>
+  <text class="label" x="450" y="360">5.1 ± 0.5 mm</text>
+  <line class="dim" x1="310" y1="360" x2="410" y2="360"/>
+  <text class="label" x="300" y="385">20.2 ± 0.1 mm clear opening</text>
+  <rect class="fill" x="305" y="340" width="110" height="40"/>
+  <rect x="312" y="380" width="96" height="145" fill="url(#mesh)" stroke="#111" stroke-width="2.4"/>
+  <rect class="fill" x="300" y="525" width="120" height="18"/>
+  <line class="dim" x1="312" y1="470" x2="408" y2="470"/>
+  <text class="label" x="430" y="460">22.2 ± 1.0 mm</text>
+  <text class="label-sm" x="430" y="480">Screen O.D.</text>
+  <line class="dim" x1="250" y1="340" x2="250" y2="543"/>
+  <line class="thin" x1="250" y1="340" x2="305" y2="340"/>
+  <line class="thin" x1="250" y1="543" x2="300" y2="543"/>
+  <text class="label" x="130" y="450">37.0 ± 3.0 mm</text>
+  <line class="dim" x1="280" y1="380" x2="280" y2="525"/>
+  <text class="label-sm" x="145" y="470">27.0 ± 1.0 mm</text>
+  <text class="label-sm" x="145" y="490">open screen</text>
+  <circle cx="300" cy="543" r="4" fill="#111"/>
+  <text class="label" x="270" y="575">A</text>
+  <text class="note" x="40" y="610">Note  Max runout at A is ± 1.0 mm when rotated on CL with basket mounted.</text>
+  <text class="note" x="40" y="640">Screen with welded seam: 40 × 40 mesh, 0.25-mm wire,</text>
+  <text class="note" x="40" y="660">openings 0.40 ± 0.04 mm. Where 20-mesh is specified:</text>
+  <text class="note" x="40" y="680">20 × 20 mesh, 0.40-mm wire, openings 0.90 ± 0.09 mm.</text>
+  <text class="note" x="40" y="700">[After welding, the screen may be slightly altered.]</text>
+  <text class="label" x="360" y="740">Bottom view</text>
+  <circle class="fill" cx="420" cy="820" r="70"/>
+  <circle cx="420" cy="820" r="52" fill="url(#mesh)" stroke="#111" stroke-width="2"/>
+  <line class="dim" x1="368" y1="820" x2="472" y2="820"/>
+  <text class="label" x="520" y="810">20.2 ± 1.0 mm</text>
+  <line class="dim" x1="350" y1="870" x2="490" y2="870"/>
+  <line class="thin" x1="350" y1="820" x2="350" y2="870"/>
+  <line class="thin" x1="490" y1="820" x2="490" y2="870"/>
+  <text class="label" x="520" y="875">25.0 ± 3.0 mm</text>
+</svg>

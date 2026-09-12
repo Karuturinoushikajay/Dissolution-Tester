@@ -1,0 +1,31 @@
+# Python
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.Python
+
+# Runtime / device data (do not publish)
+storage/
+db/
+logs/
+export/
+reports/
+uart_communications.log
+.esp_pi_log_boot_id
+audit_trail.xlsx
+
+# OS / junk
+System Volume Information/
+.git.corrupt/
+.DS_Store
+Thumbs.db
+*.bak
+*.tmp
+
+# Local env
+.env
+.env.local
+
+# Editor
+.cursor/

@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 860" width="900" height="860" role="img" aria-label="USP Apparatus 2 paddle stirring element dimensions">
+  <rect width="900" height="860" fill="#ffffff"/>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,1.5 L8,5 L0,8.5 Z" fill="#111"/>
+    </marker>
+    <style>
+      .line { stroke:#111; stroke-width:2.4; fill:none; stroke-linecap:round; stroke-linejoin:round; }
+      .thin { stroke:#111; stroke-width:1.6; fill:none; }
+      .dim { stroke:#111; stroke-width:1.5; fill:none; marker-start:url(#arrow); marker-end:url(#arrow); }
+      .dash { stroke:#111; stroke-width:1.4; fill:none; stroke-dasharray:8 5; }
+      .cl { stroke:#444; stroke-width:1.2; fill:none; stroke-dasharray:10 5 3 5; }
+      .label { font-family: Arial, Helvetica, sans-serif; font-size:20px; fill:#111; font-weight:700; }
+      .label-sm { font-family: Arial, Helvetica, sans-serif; font-size:17px; fill:#111; font-weight:700; }
+      .note { font-family: Arial, Helvetica, sans-serif; font-size:16px; fill:#222; font-weight:600; }
+      .title { font-family: Arial, Helvetica, sans-serif; font-size:22px; fill:#111; font-weight:800; }
+    </style>
+  </defs>
+  <text class="title" x="28" y="42">NOTES </text>
+  <text class="note" x="28" y="70">(1) Shaft and blade: 303 (or equivalent) stainless steel.</text>
+  <text class="note" x="28" y="94">(2) A and B vary d 0.5 mm when rotated on CL axis.</text>
+  <text class="note" x="28" y="118">(3) Tolerances ± 1.0 mm unless otherwise stated.</text>
+  <line class="cl" x1="450" y1="140" x2="450" y2="720"/>
+  <text class="label" x="458" y="160">CL</text>
+  <rect class="line" x="438" y="150" width="24" height="280" fill="#f3f3f3"/>
+  <path class="thin" d="M430,270 Q450,262 470,270 Q450,278 430,270" fill="#fff"/>
+  <line class="dim" x1="438" y1="210" x2="462" y2="210"/>
+  <text class="label" x="478" y="200">9.4 to 10.1 mm</text>
+  <text class="label-sm" x="478" y="222">diameter before coating</text>
+  <path class="line" fill="#f7f7f7" d="M 300,470 L 390,470 L 390,430 Q 410,400 450,400 Q 490,400 510,430 L 510,470 L 600,470 Q 620,480 620,505 L 620,555 Q 620,575 600,575 L 300,575 Q 280,575 280,555 L 280,505 Q 280,480 300,470 Z"/>
+  <rect class="line" x="438" y="400" width="24" height="70" fill="#ececec"/>
+  <path class="dash" d="M 270,470 Q 250,520 270,575"/>
+  <path class="dash" d="M 630,470 Q 650,520 630,575"/>
+  <text class="label" x="248" y="525">A</text>
+  <text class="label" x="648" y="525">B</text>
+  <line class="dim" x1="250" y1="430" x2="250" y2="575"/>
+  <line class="thin" x1="250" y1="430" x2="390" y2="430"/>
+  <line class="thin" x1="250" y1="575" x2="280" y2="575"/>
+  <text class="label" x="145" y="515">35.8 mm</text>
+  <line class="dim" x1="365" y1="600" x2="535" y2="600"/>
+  <line class="thin" x1="365" y1="575" x2="365" y2="600"/>
+  <line class="thin" x1="535" y1="575" x2="535" y2="600"/>
+  <text class="label" x="410" y="630">42.0 mm</text>
+  <path class="thin" d="M510,430 Q545,455 560,500"/>
+  <text class="label" x="565" y="455">41.5 mm</text>
+  <text class="label-sm" x="565" y="475">radius</text>
+  <text class="label-sm" x="605" y="465">1.2 mm R</text>
+  <rect class="line" x="720" y="430" width="22" height="120" fill="#f3f3f3"/>
+  <line class="thin" x1="720" y1="520" x2="742" y2="520"/>
+  <line class="dim" x1="760" y1="500" x2="760" y2="550"/>
+  <text class="label" x="770" y="530">19.0</text>
+  <text class="label-sm" x="770" y="550"> 2.5 mm</text>
+  <text class="label-sm" x="710" y="420">Side</text>
+  <text class="label" x="120" y="690">Bottom view</text>
+  <rect class="line" x="200" y="710" width="500" height="28" rx="4" fill="#f7f7f7"/>
+  <circle class="line" cx="450" cy="724" r="14" fill="#ececec"/>
+  <line class="dim" x1="200" y1="780" x2="700" y2="780"/>
+  <line class="thin" x1="200" y1="738" x2="200" y2="780"/>
+  <line class="thin" x1="700" y1="738" x2="700" y2="780"/>
+  <text class="label" x="350" y="810">74.0 to 75.0 mm</text>
+  <line class="dim" x1="720" y1="710" x2="720" y2="738"/>
+  <text class="label" x="735" y="730">4.0 ± 1.0 mm</text>
+</svg>
